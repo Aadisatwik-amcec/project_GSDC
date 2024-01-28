@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT11eB5DqSnr5dgndiiq2UFAnKmDREupM&callback=initMap" 
+    async defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="your-logo.png" alt="Site Logo">
+        <nav class="">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle">&#9776;</label>
+        </nav>
+    
+    </header>
+
+   
+    <div class="content">
+        <div class="phone-directory">
+            <p id="pd">Phone Directory</p>
+            <ol  class="container">
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                <li class="Directory"><a href="tel:+1234567890">Police</a></li>
+                
+            </ol>
+        </div>
+
+        <button class="sos-button" onclick="makeSOSCall()">SOS</button>
+    </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1MvMiCCPbKzSzz9pKiPHcHzR1Diklzy4&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
